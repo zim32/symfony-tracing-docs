@@ -23,10 +23,24 @@ The set of packages which integrate OpenTelemetry tracing capabilities into diff
 
 ### Getting started
 
-Minimal installation:
+Installation:
 
 ````
 composer require zim32/symfony-tracing-core
+````
+
+Add resource detector service to set set appropriate resource attributes:
+
+````yaml
+# config/services.yaml
+services:
+    # ...
+
+    Zim\SymfonyTracingCoreBundle\SymfonyResourceDetector:
+        arguments:
+            $attributes:
+                service.name: 'your-service-name'
+                service.version: '0.0.1'
 ````
 
 By default, this bundle will export spans using monolog. 
