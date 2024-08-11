@@ -41,4 +41,10 @@ F.e. to trace Symfony http client (with context propagation) just install:
 composer require zim32/symfony-tracing-http-client
 ````
 
+To trace Symfony Messenger just install:
+
+````
+composer require zim32/symfony-tracing-messenger
+````
+
 See created files in `config/packages/tracing_*` for available options. 
