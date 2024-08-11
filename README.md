@@ -31,7 +31,7 @@ Installation:
 composer require zim32/symfony-tracing-core
 ````
 
-Add resource detector service to set set appropriate resource attributes:
+Add resource detector service to set appropriate resource attributes:
 
 ````yaml
 # config/services.yaml
