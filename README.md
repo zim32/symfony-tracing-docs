@@ -2,6 +2,8 @@
 
 Traces for Symfony framework. Works without any special php extensions.
 
+![Traces](./img/img-1.png)
+
 ### Supported Symfony versions
 
 Right now this bundle supports Symfony 6.4 and 7.1.
